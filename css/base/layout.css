@@ -5,25 +5,24 @@
 }
 
 .container > .row {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px 0;
     width: 1000px;
     margin-left: calc(50% - 500px);
-    transition: all 1s;
 }
 
 .container > .short-row {
-    display: inline-block;
     width: 600px;
     margin-left: calc(50% - 300px);
 }
 
 .container > .row > .left {
-    float: left;
     width: 50%;
 }
 
 .container > .row > .right {
-    float: right;
     width: 40%;
 }
 
