@@ -68,4 +68,22 @@ footer.container{
 }
 
 .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bottom > .logo {
+    margin-bottom: 40px;
+}
+
+.bottom > .trio {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom a {
+    color: #fff;
 }
