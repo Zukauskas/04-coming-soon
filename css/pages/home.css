@@ -37,3 +37,53 @@
 .section-description > a:hover {
     text-decoration: underline;
 }
+
+footer.container{
+    padding-top: 0;
+}
+
+.row.socials {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    justify-content: center;
+    gap: 1em;
+}
+.socials > a {
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50%;
+    transition:all 0.5s;
+}
+
+.socials > a:hover{
+    color: var(--main-color);
+    background-color: white;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bottom > .logo {
+    margin-bottom: 40px;
+}
+
+.bottom > .trio {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom a {
+    color: #fff;
+}
