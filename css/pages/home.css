@@ -7,7 +7,6 @@
     gap: 30px;
 }
 
-
 .logo {
     height: 30px;
 }
@@ -21,7 +20,20 @@
     font-size: 21px;
 }
 
-.clock {
-    width: 80%;
-    background-color: pink;
+.section-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.section-description {
+    font-size: 16px;
+}
+
+.section-description > a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.section-description > a:hover {
+    text-decoration: underline;
 }

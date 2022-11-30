@@ -1,3 +1,8 @@
+:root {
+    --main-color:#03a9f4;
+    --secondary-color: #ea1e63;
+}
+
 body,
 body * {
     margin:0;
@@ -7,9 +12,9 @@ body * {
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: var(--main-color);
 }
