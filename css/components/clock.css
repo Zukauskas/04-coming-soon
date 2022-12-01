@@ -11,6 +11,7 @@
 
 .clock > .time > .value {
     font-size: 60px;
+    font-weight: 700;
 }
 .clock > .time > .label {
     text-transform: uppercase;
