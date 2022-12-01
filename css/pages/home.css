@@ -84,11 +84,29 @@ footer.container{
     gap: 0 20px;
 }
 
+.bottom > .trio > p {
+    position: relative;
+}
+
+.bottom > .trio > p + p::before {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 1px;
+    left: -11px;
+}
+
 .bottom a {
     color: #fff;
 }
 
 @media (max-width: 700px) {
+    .main-title {
+        font-size: 60px;
+    }
     .bottom > .trio {
         flex-direction: column;
     }
