@@ -1,7 +1,6 @@
 .container {
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 .container > .row {
@@ -10,12 +9,12 @@
     flex-wrap: wrap;
     gap: 60px 0;
     width: 1000px;
-    margin-left: calc(50% - 500px);
+    margin: 0 calc(50% - 500px);
 }
 
 .container > .short-row {
     width: 600px;
-    margin-left: calc(50% - 300px);
+    margin: 0 calc(50% - 300px);
 }
 
 .container > .row > .column {
@@ -32,7 +31,7 @@
 @media (max-width:1100px) {
     .container > .row {
         width: 800px;
-        margin-left: calc(50% - 400px);
+        margin:0 calc(50% - 400px);
     }
 }    
 
@@ -40,7 +39,7 @@
 @media (max-width:900px) {
     .container > .row {
         width: 600px;
-        margin-left: calc(50% - 300px);
+        margin:0 calc(50% - 300px);
     }
 }   
 
