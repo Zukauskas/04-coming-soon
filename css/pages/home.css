@@ -110,4 +110,7 @@ footer.container{
     .bottom > .trio {
         flex-direction: column;
     }
+    .bottom > .trio > p + p::before {
+        display: none;
+    }
 }
