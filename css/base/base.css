@@ -3,6 +3,10 @@
     --secondary-color: #ea1e63;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 body * {
     margin:0;

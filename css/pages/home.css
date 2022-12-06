@@ -51,12 +51,34 @@ footer.container{
     padding-top: 0;
 }
 
-.row.socials {
+footer.container > .row {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     margin-bottom: 2em;
-    font-size: 20px;
     border-bottom: 1px solid white;
+    justify-content: center;
+    position:relative;
+    
+}
+
+.back-to-top {
+    background-color: var(--secondary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: -15px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.row .socials {
+    font-size: 20px;
     justify-content: center;
     gap: 1em;
 }
