@@ -18,7 +18,9 @@
     <!-- 3rd-party -->
     <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css">
     <!-- components -->
+    <link rel="stylesheet" href="./css/components/button.css">
     <link rel="stylesheet" href="./css/components/clock.css">
+    <link rel="stylesheet" href="./css/components/forms.css">
     <link rel="stylesheet" href="./css/components/mouse.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
     <!-- pages -->
@@ -92,6 +94,23 @@
             <div class="column right">
                 <h2 class="section-title">Have any question?</h2>
                 <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem est quas ex corrupti doloribus molestiae ea <a href="mailto:vardenis@saitenis.com">vardenis@saitenis.com</a> non mollitia provident facilis, voluptates voluptatibus libero magni.</p>
+                <form action="/">
+                    <div class="cell-1">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Name" required>
+                    </div>
+                    <div class="cell-1">
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" type="email" placeholder="Email" required>
+                    </div>
+                    <div class="cell-2">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="cell-2">
+                        <button class="btn">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
