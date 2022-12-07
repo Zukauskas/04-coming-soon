@@ -1,4 +1,19 @@
 form {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+
+form > .cell-1 {
+    grid-column: span 1;
+}
+
+form > .cell-2{
+    grid-column: span 2;
+}
+
+
+form > div > input,
+form > div > textarea {
+    width: 100%;
 }
