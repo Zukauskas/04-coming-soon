@@ -1,0 +1,18 @@
+.btn {
+    padding: 1em;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    line-height: 1em;
+    cursor: pointer;
+    width: auto;
+    opacity: 0.85;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    box-shadow: 0 3px 6px #ccc;
+    opacity: 1;
+}
