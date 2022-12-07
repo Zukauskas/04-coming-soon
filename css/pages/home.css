@@ -62,18 +62,19 @@ footer.container > .row {
 }
 
 .back-to-top {
-    background-color: var(--secondary-color);
     width: 50px;
     height: 50px;
     border-radius: 50%;
     position: absolute;
+    padding: 0;
+    text-align: center;
     top: -30px;
     right: -15px;
+    font-size: 25px;
+    line-height: 2em;
     color: #fff;
-    font-size: 30px;
-    text-align: center;
-    line-height: 50px;
     text-decoration: none;
+    opacity: 1;
     transition: all 0.5s;
 }
 
