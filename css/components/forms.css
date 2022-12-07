@@ -3,6 +3,26 @@
     font-style: italic;
 }
 
+.hero form {
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 40px;
+}
+
+.hero form input {
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+
+.hero form input::placeholder {
+    color: #fff;
+}
+
+:focus {
+    outline: none;
+}
+
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
