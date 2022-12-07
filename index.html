@@ -4,9 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- base -->
+    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/base/layout.css">
+    <!-- 3rd-party -->
+    <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css">
+    <!-- components -->
+    <link rel="stylesheet" href="./css/components/button.css">
+    <link rel="stylesheet" href="./css/components/clock.css">
+    <link rel="stylesheet" href="./css/components/forms.css">
+    <link rel="stylesheet" href="./css/components/mouse.css">
+    <link rel="stylesheet" href="./css/components/progress-bar.css">
+    <!-- pages -->
+    <link rel="stylesheet" href="./css/pages/home.css">
+    <title>Coming Soon</title>
 </head>
 <body>
-    CONTENT
+    <section class="container hero bg-blue">
+        <div class="short-row hero">
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <h1 class="main-title">Coming soon</h1>
+            <p class="main-description">An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!</p>
+        
+            <div class="clock">
+            <div class="time">
+                <div class="value">432</div>
+                <div class="label">days</div>
+            </div>
+            <div class="time">
+                <div class="value">89</div>
+                <div class="label">hours</div>
+            </div>
+            <div class="time">
+                <div class="value">37</div>
+                <div class="label">minutes</div>
+            </div>
+            <div class="time">
+                <div class="value">39</div>
+                <div class="label">seconds</div>
+            </div>
+            </div>
+            <div class="mouse"></div>
+        </div>
+        
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="column">
+                <h2 class="section-title">About startup</h2>
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dicta hic, fuga quod optio ad ut molestiae dolore distinctio. <a href="#">Matrox</a> eveniet numquam maxime quas aliquam?</p>
+                <div class="progress-bar-list">
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">UX Design</div>
+                            <div class="value">90%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="--w: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">Web Design</div>
+                            <div class="value">80%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="--w: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">Web Development</div>
+                            <div class="value">50%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="--w: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column right">
+                <h2 class="section-title">Have any question?</h2>
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem est quas ex corrupti doloribus molestiae ea <a href="mailto:vardenis@saitenis.com">vardenis@saitenis.com</a> non mollitia provident facilis, voluptates voluptatibus libero magni.</p>
+                <form action="/">
+                    <div class="cell-1">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Name" required>
+                    </div>
+                    <div class="cell-1">
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" type="email" placeholder="Email" required>
+                    </div>
+                    <div class="cell-2">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="cell-2">
+                        <button class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="container bg-blue">
+        <div class="row">
+            <div class="socials">
+                <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-dribbble"></a>
+            <a href="#" class="fa fa-tumblr"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-rss"></a>
+            </div>
+            <a href="#" class="back-to-top fa fa-angle-up"></a>
+        </div>
+        <div class="short-row bottom">
+            <img class="logo" src="./img/brand.png" alt="brand logo">
+            <div class="trio">
+            <p>Copyright &copy; 2022 <a href="#">Matrox</a></p>
+            <p>All rights reserved</p>
+            <p>Designed by <a href="#" target="_blank">TrendyThemes</a> </p>
+        </div>
+            <p class="footer-description">Matrox pack includes complete websites not just homepages, it comes with full website demos. Over 200+ ready html files only for 17$.</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,56 @@
+::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+
+form > .cell-1 {
+    grid-column: span 1;
+}
+
+form > .cell-2{
+    grid-column: span 2;
+}
+
+form > div > label {
+    display: none;
+}
+
+
+form > div > input,
+form > div > textarea {
+    font-size: 18px;
+    line-height: 1.2em;
+    padding: 0.5em 0.1em;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+form > div > textarea {
+    min-height: 4.8em;
+    max-height: 13em;
+    resize: vertical;
+}
+
+form div:nth-child(4) {
+    display: grid;
+    justify-content: end;
+}
+
+@media (max-width:1100px){
+
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    form > .cell-2{
+        grid-column: span 1;
+    }
+
+}

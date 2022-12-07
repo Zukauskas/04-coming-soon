@@ -1,0 +1,147 @@
+.container > .short-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.container.hero {
+    background-image: url(../../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.logo {
+    height: 30px;
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.main-description {
+    font-size: 21px;
+}
+
+.section-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.section-description {
+    font-size: 16px;
+}
+
+.section-description > a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.section-description > a:hover {
+    text-decoration: underline;
+}
+
+footer.container{
+    padding-top: 0;
+}
+
+footer.container > .row {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid white;
+    justify-content: center;
+    position:relative;
+    
+}
+
+.back-to-top {
+    background-color: var(--secondary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: -15px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.row .socials {
+    font-size: 20px;
+    justify-content: center;
+    gap: 1em;
+}
+.socials > a {
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50%;
+    transition:all 0.5s;
+}
+
+.socials > a:hover{
+    color: var(--main-color);
+    background-color: white;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bottom > .logo {
+    margin-bottom: 40px;
+}
+
+.bottom > .trio {
+    display: flex;
+    gap: 0 20px;
+}
+
+.bottom > .trio > p {
+    position: relative;
+}
+
+.bottom > .trio > p + p::before {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 1px;
+    left: -11px;
+}
+
+.bottom a {
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .main-title {
+        font-size: 60px;
+    }
+    .bottom > .trio {
+        flex-direction: column;
+    }
+    .bottom > .trio > p + p::before {
+        display: none;
+    }
+}

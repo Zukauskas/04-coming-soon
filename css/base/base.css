@@ -1,0 +1,24 @@
+:root {
+    --main-color:#03a9f4;
+    --secondary-color: #ea1e63;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+    margin:0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.bg-blue {
+    background-color: var(--main-color);
+}
