@@ -38,6 +38,11 @@ form > div > textarea {
     resize: vertical;
 }
 
+form div:nth-child(4) {
+    display: grid;
+    justify-content: end;
+}
+
 @media (max-width:1100px){
 
     form {
